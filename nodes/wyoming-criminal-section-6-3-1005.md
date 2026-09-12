@@ -1,0 +1,93 @@
+---
+policy_ref: nkb://policies/canonicalization/v1
+canonical_status: pending
+canonical_fidelity: A
+canonical_confidence: high
+canonical_scope: section
+canonical_source:
+  authority: wyoming_legislature
+  source_version: '2024'
+  section_id: 6-3-1005
+  source_url: https://law.justia.com/codes/wyoming/title-6/chapter-3/article-10/section-6-3-1005/
+  parsing_authority: justia
+canonical_hash: f1e3a50862c679c365e79ef3bcb0d7924627e4da2993b6c82d0555cbe53b0937
+ingested_on: '2026-02-22'
+validated_by: null
+validation_notes: Extraction from Justia 2024; pending human validation
+id: wyoming-criminal-section-6-3-1005
+type: legal-statute
+title: § 6-3-1005 - Crimes and OffensesChapter 3 - Offenses Against PropertyArticle 10 - Animal AbuseSection 6-3-1005 - Felony Cruelty to Animals; Penalty
+domain: wyoming-criminal
+parent_chapter: wyoming-criminal-title-6-chapter-6
+classification: public
+legal_jurisdiction: wyoming
+legal_category: criminal
+statute_citation: § 6-3-1005
+effective_date: unknown
+last_amended: unknown
+source_url: https://law.justia.com/codes/wyoming/title-6/chapter-3/article-10/section-6-3-1005/
+source_authority: justia
+last_verified: 2026-02-22 16:08:38.173241
+6q_enriched_at: '2026-02-23T11:43:40.990846Z'
+6q_enrichment_method: grok-4-1-fast-legal
+6q_what: Felony cruelty to animals, defined as committing specific acts of cruelty under W.S. 6-3-1002(a)(v) through (ix) that result in the death or required euthanasia of the animal.
+6q_who: '{''actors'': [''person''], ''victims'': [''animal''], ''protected_classes'': [''animals'']}'
+6q_when: '{''enacted_or_amended'': ''unknown'', ''temporal_conditions'': ''none specified''}'
+6q_where: '{''jurisdiction'': ''Wyoming'', ''geographic_limitations'': ''none specified''}'
+6q_how: '{''grading'': ''felony'', ''elements'': ''1. Person commits cruelty as defined in W.S. 6-3-1002(a)(v)-(ix); 2. Results in death or required euthanasia of animal'', ''mens_rea'': ''not specified in this section (refer to 6-3-1002)'', ''penalties'': ''imprisonment ≤2 years, fine ≤$5,000, or both; permanent forfeiture of animal'', ''procedural_requirements'': ''none specified''}'
+6q_why: To protect animals from severe cruelty resulting in death or euthanasia by imposing felony penalties and permanent forfeiture.
+6q_summary: This statute defines felony cruelty to animals as specific acts of cruelty causing an animal's death or required euthanasia, punishable by up to 2 years imprisonment, $5,000 fine, and permanent forfeiture of the animal.
+6q_tags:
+- felony
+- animal cruelty
+- cruelty to animals
+- animal death
+- euthanasia
+- forfeiture
+- wyoming criminal code
+- property offenses
+6q_cross_references:
+- 6-3-1002
+6q_elements:
+- Person commits cruelty to animals as defined in W.S. 6-3-1002(a)(v) through (ix)
+- The cruelty results in the death or required euthanasia of the animal
+sources:
+- resource: https://law.justia.com/codes/wyoming/title-6/chapter-3/article-10/section-6-3-1005/
+  title: wyoming-criminal § 6-3-1005
+  author: justia
+  last_modified: '2024'
+generated:
+  by: process:nkb-legal-ingest/v1
+  at: '2026-02-22'
+status: stable
+rights_holder: William Daniel Raper
+copyright_notice: © 2026 William Daniel Raper. Compilation, metadata schema, 6Q analytical enrichment, relationship mapping, and classification taxonomy are original authorship registered with the United States Copyright Office, Reg. No. TXu 2-562-276 (effective 2026-02-23). Statutory text is public domain and is not claimed.
+copyright_registration: TXu 2-562-276
+license: CC-BY-4.0 (sample bundle; see NOTICE.md)
+---
+
+# § 6-3-1005 - Crimes and OffensesChapter 3 - Offenses Against PropertyArticle 10 - Animal AbuseSection 6-3-1005 - Felony Cruelty to Animals; Penalty
+
+## Statutory Text
+
+> 6-3-1005. Felony cruelty to animals; penalty.
+> 
+> (a) A person commits felony cruelty to animals if the person:
+> (i) Commits cruelty to animals as defined in W.S. 6-3-1002(a)(v) through (ix), that results in the death or required euthanasia of the animal; or
+> (b) Felony cruelty to animals is a felony punishable by:
+> (i) Permanent forfeiture of the animal or livestock animal; and
+> (ii) Imprisonment for not more than two (2) years, a fine of not more than five thousand dollars ($5,000.00), or both.
+
+
+## Source
+
+**Official Source**: [Wyoming Code § 6-3-1005](https://wyoleg.gov/NXT/gateway.dll?f=templates&fn=default.htm)
+**Parsing Source**: [Justia](https://law.justia.com/codes/wyoming/title-6/chapter-3/article-10/section-6-3-1005/)
+**Last Verified**: 2026-02-22T16:08:38.173241
+
+---
+*Canonical hash (SHA256): `f1e3a50862c679c3...` | policy_ref: nkb://policies/canonicalization/v1*
+
+## Related (relationship graph, rendered as OKF links)
+
+- [§ 6-3-1006](/nodes/wyoming-criminal-section-6-3-1006.md "rel:sequential-section {strength: 0.85}")

@@ -1,0 +1,293 @@
+---
+type: index
+okf_version: "0.2"
+title: "NKB Legal — Wyoming Criminal Code (OKF reference bundle)"
+description: "264 Wyoming Title 6 statute nodes as an OKF v0.2 bundle: Canon Integrity provenance, inline 6Q enrichment, and the relationship graph rendered as typed markdown links. A public sample of the registered NKB Legal compilation (Reg. No. TXu 2-562-276)."
+rights_holder: "William Daniel Raper"
+copyright_registration: "TXu 2-562-276"
+license: "CC-BY-4.0"
+generated:
+  by: "process:nkb-okf-bundle-export/v1"
+  at: "2026-09-12"
+---
+
+# NKB Legal — Wyoming Criminal Code (OKF reference bundle)
+
+A Neural Knowledge Base is an OKF-conformant document bundle **plus** layers OKF does not model: a six-dimensional (6Q) analytical layer on every node, a typed relationship graph, identity-conditioned retrieval, federation, and per-node provenance. This bundle shows the first three in plain files that any OKF consumer can read. See `NOTICE.md` for rights and `log.md` for history.
+
+Technical note: *Neural Knowledge Bases as OKF Supersets* — DOI 10.5281/zenodo.21861595. Retrieval measurement: DOI 10.5281/zenodo.21613674.
+
+## What is in each node
+
+- Canon Integrity Header: `canonical_source`, `canonical_hash`, `ingested_on` (provenance before OKF existed)
+- OKF v0.2 families: `sources`, `generated`, `status`
+- 6Q enrichment: `6q_what` / `6q_who` / `6q_when` / `6q_where` / `6q_how` / `6q_why`, `6q_summary`, `6q_tags`
+- Relationship graph: a **Related** section of markdown links whose title carries `rel:<type> {strength}` (typed-link convention proposed in knowledge-catalog issue #322)
+- Copyright fields: `rights_holder`, `copyright_notice`, `copyright_registration`
+
+## Nodes
+
+- [§ 6-1-101](/nodes/wyoming-criminal-section-6-1-101.md) — This statute names the Wyoming Criminal Code and provides non-retroactivity rules requiring prior law governs pre-effective date crimes and 
+- [§ 6-1-102](/nodes/wyoming-criminal-section-6-1-102.md) — Wyoming § 6-1-102 abolishes common-law crimes, requiring all criminal conduct to be defined by statute while retaining common-law defenses a
+- [§ 6-1-103](/nodes/wyoming-criminal-section-6-1-103.md) — Authorizes full civil damages recovery for injuries from criminal acts while restricting use of non-confession convictions as evidence in ci
+- [§ 6-1-104](/nodes/wyoming-criminal-section-6-1-104.md) — § 6-1-104 defines essential terms including mens rea standards (criminal negligence, recklessly), injury levels, occupied structure, violent
+- [§ 6-1-201](/nodes/wyoming-criminal-section-6-1-201.md) — Defines accessory before the fact as one who knowingly aids, abets, counsels, encourages, hires, commands, or procures a felony and treats t
+- [§ 6-1-202](/nodes/wyoming-criminal-section-6-1-202.md) — Wyoming statute § 6-1-202 bars self-induced intoxication as a defense to criminal charges except when relevant to negate specific intent ele
+- [§ 6-1-203](/nodes/wyoming-criminal-section-6-1-203.md) — Authorizes expert testimony on battered woman syndrome to support the reasonable belief element of self-defense in Wyoming force-related cri
+- [§ 6-1-204](/nodes/wyoming-criminal-section-6-1-204.md) — Provides civil immunity and attorney fee recovery for persons using reasonable defensive force under Wyoming's self-defense statute.
+- [§ 6-1-205](/nodes/wyoming-criminal-section-6-1-205.md) — This statute shields creators and hosts of non-criminal digital expressions from criminal liability solely because another person misuses th
+- [§ 6-1-301](/nodes/wyoming-criminal-section-6-1-301.md) — Defines criminal attempt as intentional conduct constituting a substantial step toward crime commission, with a defense for voluntary and co
+- [§ 6-1-302](/nodes/wyoming-criminal-section-6-1-302.md) — This Wyoming statute criminalizes solicitation to commit a felony with intent, under corroborative circumstances where the crime does not oc
+- [§ 6-1-303](/nodes/wyoming-criminal-section-6-1-303.md) — Defines conspiracy as an agreement to commit a crime plus an overt act, with venue in agreement or overt act counties and a renunciation def
+- [§ 6-1-304](/nodes/wyoming-criminal-section-6-1-304.md) — Sets penalties for attempt, solicitation, and conspiracy equal to the most serious object offense, excluding death penalty for uncompleted c
+- [§ 6-10-101](/nodes/wyoming-criminal-section-6-10-101.md) — Defines felonies as crimes punishable by death or more than one year imprisonment and all other crimes as misdemeanors.
+- [§ 6-10-102](/nodes/wyoming-criminal-section-6-10-102.md) — Wyoming statute authorizing felony fines up to $10,000 and mandating court automation and indigent legal services fees in criminal convictio
+- [§ 6-10-103](/nodes/wyoming-criminal-section-6-10-103.md) — Sets default misdemeanor penalties of up to 6 months jail and/or $750 fine where none prescribed, plus mandatory $40 court automation and $1
+- [§ 6-10-104](/nodes/wyoming-criminal-section-6-10-104.md) — Wyoming courts have authority to determine punishment for felonies and misdemeanors within statutory limits, subject to W.S. 7-13-108.
+- [§ 6-10-105](/nodes/wyoming-criminal-section-6-10-105.md) — Authorizes imprisonment at $15 per day for defendants who willfully refuse to pay fines or costs when the court finds they have or will like
+- [§ 6-10-106](/nodes/wyoming-criminal-section-6-10-106.md) — Wyoming statute automatically strips convicted felons of voting, jury service, public office holding, and firearm possession rights within t
+- [§ 6-10-107](/nodes/wyoming-criminal-section-6-10-107.md) — This Wyoming statute mandates that any term of imprisonment imposed in a state penal institution shall be no less than one year.
+- [§ 6-10-108](/nodes/wyoming-criminal-section-6-10-108.md) — This statute mandates that officers collecting fines pay them into the county general fund within 30 days and provide receipts to the county
+- [§ 6-10-109](/nodes/wyoming-criminal-section-6-10-109.md) — Defines state penal institutions for felony sentences to include Wyoming state penitentiary, women's center, or other legally created facili
+- [§ 6-10-201](/nodes/wyoming-criminal-section-6-10-201.md) — Wyoming statute defines habitual criminals as those with a current violent felony plus two or more prior felonies and mandates 10-50 year or
+- [§ 6-10-202](/nodes/wyoming-criminal-section-6-10-202.md) — This statute ensures that habitual criminal provisions do not interfere with the imposition of death penalty or life imprisonment without pa
+- [§ 6-10-203](/nodes/wyoming-criminal-section-6-10-203.md) — Establishes procedures for charging, trying, and proving habitual criminal status using bifurcated trials and authenticated conviction recor
+- [§ 6-10-301](/nodes/wyoming-criminal-section-6-10-301.md) — Creates life imprisonment without parole for specified Wyoming crimes and establishes parole eligibility rules for life sentences based on o
+- [§ 6-2-101](/nodes/wyoming-criminal-section-6-2-101.md) — Defines first-degree murder in Wyoming as premeditated killings or felony murders during specified violent crimes, punishable by death, life
+- [§ 6-2-102](/nodes/wyoming-criminal-section-6-2-102.md) — Establishes presentence hearing procedures for first-degree murder convictions seeking death penalty, requiring consideration of specific ag
+- [§ 6-2-103](/nodes/wyoming-criminal-section-6-2-103.md) — Establishes mandatory Wyoming Supreme Court review procedure for all death sentences to assess propriety and authorize sentence modification
+- [§ 6-2-104](/nodes/wyoming-criminal-section-6-2-104.md) — Defines second-degree murder as purposeful and malicious killing without premeditation of any human being or unborn child (via killing/attem
+- [§ 6-2-105](/nodes/wyoming-criminal-section-6-2-105.md) — Defines voluntary manslaughter as the unlawful killing of a human being without malice upon sudden heat of passion, punishable as a felony b
+- [§ 6-2-106](/nodes/wyoming-criminal-section-6-2-106.md) — Wyoming statute criminalizes causing death by criminally negligent vehicle operation (misdemeanor) or by driving under specified DUI/DWI law
+- [§ 6-2-107](/nodes/wyoming-criminal-section-6-2-107.md) — This statute defines criminally negligent homicide as a misdemeanor where a person causes another's death through criminal negligence, exclu
+- [§ 6-2-108](/nodes/wyoming-criminal-section-6-2-108.md) — Criminalizes causing death by unlawfully delivering controlled substances to another person, punishable as a felony by up to 20 years impris
+- [§ 6-2-109](/nodes/wyoming-criminal-section-6-2-109.md) — This Wyoming statute mandates enhanced minimum prison sentences for homicide convictions when the jury finds the victim was pregnant and the
+- [§ 6-2-201](/nodes/wyoming-criminal-section-6-2-201.md) — Defines kidnapping as unlawful removal or confinement with intent to hold for ransom/hostage or facilitate felony, punishable as a felony wi
+- [§ 6-2-202](/nodes/wyoming-criminal-section-6-2-202.md) — This Wyoming statute defines felonious restraint as the knowing unlawful restraint of another person under circumstances exposing them to ri
+- [§ 6-2-203](/nodes/wyoming-criminal-section-6-2-203.md) — Defines false imprisonment as the knowing and unlawful restraint of another that substantially interferes with their liberty, punishable as 
+- [§ 6-2-204](/nodes/wyoming-criminal-section-6-2-204.md) — Criminalizes knowingly taking or enticing a minor from lawful custody without privilege, punishable as a felony with tiered penalties based 
+- [§ 6-2-301](/nodes/wyoming-criminal-section-6-2-301.md) — Defines 'actor' and 'sexual assault' for Wyoming's Sexual Assault article (W.S. 6-2-302 through 6-2-319).
+- [§ 6-2-302](/nodes/wyoming-criminal-section-6-2-302.md) — Defines first-degree sexual assault as inflicting sexual intrusion on a victim by causing submission through physical force or forcible conf
+- [§ 6-2-303](/nodes/wyoming-criminal-section-6-2-303.md) — Defines sexual assault in the second degree as sexual intrusion via threats of retaliation or sexual contact/intrusion by healthcare provide
+- [§ 6-2-304](/nodes/wyoming-criminal-section-6-2-304.md) — Defines sexual assault in the third degree in Wyoming as conduct not amounting to first or second degree sexual assault, with its sole speci
+- [§ 6-2-306](/nodes/wyoming-criminal-section-6-2-306.md) — This statute prescribes felony imprisonment penalties for sexual assault convictions under W.S. 6-2-302 through 6-2-304 and imposes life wit
+- [§ 6-2-307](/nodes/wyoming-criminal-section-6-2-307.md) — Wyoming § 6-2-307 eliminates marriage as a defense to specified sexual assault offenses and consent as a defense to certain aggravated sexua
+- [§ 6-2-308](/nodes/wyoming-criminal-section-6-2-308.md) — Provides an affirmative defense of reasonable belief in victim's age (16+) for sexual assault criminality depending on victim under 16, but 
+- [§ 6-2-309](/nodes/wyoming-criminal-section-6-2-309.md) — Establishes procedures for sexual assault victim medical examinations, funds payment mechanisms, confidentiality protections, and convicted 
+- [§ 6-2-311](/nodes/wyoming-criminal-section-6-2-311.md) — Wyoming statute § 6-2-311 eliminates the requirement for corroboration of victim testimony in sexual assault convictions.
+- [§ 6-2-312](/nodes/wyoming-criminal-section-6-2-312.md) — Establishes mandatory procedure for defendants to seek admission of victim's prior sexual conduct evidence in Wyoming sexual assault cases, 
+- [§ 6-2-313](/nodes/wyoming-criminal-section-6-2-313.md) — Defines sexual battery as unlawful sexual contact with another person (excluding more serious sexual offenses) and punishes it as a misdemea
+- [§ 6-2-314](/nodes/wyoming-criminal-section-6-2-314.md) — Defines first-degree sexual abuse of a minor as a person 16+ inflicting sexual intrusion on a child under 13, punishable by up to 50 years i
+- [§ 6-2-315](/nodes/wyoming-criminal-section-6-2-315.md) — Criminalizes sexual intrusion by persons 17+ on minors aged 13-15 who are at least 4 years younger, punishable by up to 20 years imprisonmen
+- [§ 6-2-316](/nodes/wyoming-criminal-section-6-2-316.md) — This Wyoming statute criminalizes sexual contact between persons 17+ and minors aged 13-15 who are at least 4 years younger, excluding highe
+- [§ 6-2-317](/nodes/wyoming-criminal-section-6-2-317.md) — Defines fourth-degree sexual abuse of a minor as sexual contact between minors under 16 and under 13 with at least a 3-year age gap, punisha
+- [§ 6-2-318](/nodes/wyoming-criminal-section-6-2-318.md) — Criminalizes adults soliciting, procuring, or knowingly encouraging children under 14 (or purportedly under 14) to engage in sexual intrusio
+- [§ 6-2-319](/nodes/wyoming-criminal-section-6-2-319.md) — Restricts public disclosure of sexual assault victim and actor identities by public employees pre-charging and minor victims post-charging, 
+- [§ 6-2-320](/nodes/wyoming-criminal-section-6-2-320.md) — Prohibits adult registered sex offenders from school premises when children are present and from living within 1,000 feet of schools, punish
+- [§ 6-2-401](/nodes/wyoming-criminal-section-6-2-401.md) — Defines robbery as inflicting bodily injury during larceny (≤10 years) and aggravated robbery as intentionally inflicting serious bodily inj
+- [§ 6-2-402](/nodes/wyoming-criminal-section-6-2-402.md) — Defines blackmail as intentional threats of bodily or property injury to obtain property or compel action, with felony penalties escalated f
+- [§ 6-2-403](/nodes/wyoming-criminal-section-6-2-403.md) — This Wyoming statute criminalizes threatening or intimidating others with physical injury or property damage to promote or facilitate crimin
+- [§ 6-2-501](/nodes/wyoming-criminal-section-6-2-501.md) — Criminalizes simple assault, battery, and unlawful contact as misdemeanors with specified penalties.
+- [§ 6-2-502](/nodes/wyoming-criminal-section-6-2-502.md) — Defines and penalizes aggravated assault and battery as a felony, including causing serious bodily injury with extreme recklessness or perfo
+- [§ 6-2-503](/nodes/wyoming-criminal-section-6-2-503.md) — Criminalizes child abuse by responsible persons or qualifying adults who intentionally or recklessly inflict physical injury on children und
+- [§ 6-2-504](/nodes/wyoming-criminal-section-6-2-504.md) — Wyoming statute criminalizes as a misdemeanor reckless conduct or knowingly pointing a firearm at another that endangers life or serious bod
+- [§ 6-2-505](/nodes/wyoming-criminal-section-6-2-505.md) — Criminalizes threats to commit violent felonies intended to cause building evacuations or serious public inconvenience, punishable as a felo
+- [§ 6-2-506](/nodes/wyoming-criminal-section-6-2-506.md) — Wyoming § 6-2-506 criminalizes intentional stalking through a harassing course of conduct as a misdemeanor, elevated to felony under specifi
+- [§ 6-2-507](/nodes/wyoming-criminal-section-6-2-507.md) — Criminalizes intentional or reckless abuse, neglect, abandonment, intimidation, or exploitation of vulnerable adults with felony and misdeme
+- [§ 6-2-508](/nodes/wyoming-criminal-section-6-2-508.md) — Criminalizes reckless misdemeanor and intentional felony assault by propelling dangerous substances at Wyoming corrections/detention officer
+- [§ 6-2-509](/nodes/wyoming-criminal-section-6-2-509.md) — Criminalizes intentional, knowing, or reckless strangulation of household members as a felony punishable by up to 10 years imprisonment.
+- [§ 6-2-510](/nodes/wyoming-criminal-section-6-2-510.md) — Criminalizes household members unlawfully attempting to cause bodily injury to other household members, with misdemeanor penalties enhanced 
+- [§ 6-2-511](/nodes/wyoming-criminal-section-6-2-511.md) — Wyoming statute criminalizing domestic battery against household members with tiered misdemeanor and felony penalties based on prior convict
+- [§ 6-2-601](/nodes/wyoming-criminal-section-6-2-601.md) — This statute mandates that common law governs justification defenses in all cases not covered by Wyoming's statutory Article 6 on justificat
+- [§ 6-2-602](/nodes/wyoming-criminal-section-6-2-602.md) — Wyoming's § 6-2-602 justifies reasonable defensive force including deadly force against imminent threats with no duty to retreat when lawful
+- [§ 6-2-701](/nodes/wyoming-criminal-section-6-2-701.md) — This statute defines essential terms 'benefit,' 'financial harm,' and 'pecuniary damage' for Wyoming's human trafficking laws in Article 7.
+- [§ 6-2-702](/nodes/wyoming-criminal-section-6-2-702.md) — Defines human trafficking in the first degree as intentionally or knowingly engaging in specified acts to subject individuals to forced labo
+- [§ 6-2-703](/nodes/wyoming-criminal-section-6-2-703.md) — Defines human trafficking in the second degree as recklessly engaging in specified trafficking acts for forced labor or servitude, punishabl
+- [§ 6-2-704](/nodes/wyoming-criminal-section-6-2-704.md) — This Wyoming statute criminalizes intentionally, knowingly, or recklessly using coercion, deception, or fraud to compel forced labor or serv
+- [§ 6-2-705](/nodes/wyoming-criminal-section-6-2-705.md) — This Wyoming statute criminalizes intentionally, knowingly, or recklessly using coercion, deception, or fraud to compel adults (18+) to perf
+- [§ 6-2-706](/nodes/wyoming-criminal-section-6-2-706.md) — This Wyoming statute criminalizes as a felony the intentional, knowing, or reckless offering, procuring, or compelling of a minor under 18 f
+- [§ 6-2-707](/nodes/wyoming-criminal-section-6-2-707.md) — This Wyoming statute makes it a felony to knowingly pay or offer payment for sexual activity with a victim of sexual servitude.
+- [§ 6-2-708](/nodes/wyoming-criminal-section-6-2-708.md) — Wyoming § 6-2-708 immunizes human trafficking victims from criminal liability for trafficking-related offenses and authorizes courts to vaca
+- [§ 6-2-709](/nodes/wyoming-criminal-section-6-2-709.md) — Wyoming statute mandating law enforcement and prosecutors provide human trafficking victims with notifications, services referrals, federal 
+- [§ 6-2-710](/nodes/wyoming-criminal-section-6-2-710.md) — Requires Wyoming courts to order mandatory restitution to human trafficking victims upon felony convictions under Article 7, with payments c
+- [§ 6-2-711](/nodes/wyoming-criminal-section-6-2-711.md) — Establishes comprehensive asset forfeiture procedures for human trafficking convictions, prioritizing victim restitution and protecting inno
+- [§ 6-2-712](/nodes/wyoming-criminal-section-6-2-712.md) — This statute mandates 25 years to life imprisonment without parole for human trafficking convictions involving minor victims by offenders wi
+- [§ 6-3-1001](/nodes/wyoming-criminal-section-6-3-1001.md) — § 6-3-1001 defines 'Costs of the animal's impoundment' and 'Household pet' for Wyoming's animal abuse statutes.
+- [§ 6-3-1002](/nodes/wyoming-criminal-section-6-3-1002.md) — Defines cruelty to animals as knowingly overloading/driving animals or possessing/training dogs/fowls for fighting.
+- [§ 6-3-1003](/nodes/wyoming-criminal-section-6-3-1003.md) — Wyoming statute criminalizes as misdemeanors the inhumane destruction of animals using specific prohibited chambers, knowing attendance at f
+- [§ 6-3-1004](/nodes/wyoming-criminal-section-6-3-1004.md) — This statute sets misdemeanor penalties for first and repeat offenses of animal cruelty under W.S. 6-3-1002 and violations under W.S. 6-3-10
+- [§ 6-3-1005](/nodes/wyoming-criminal-section-6-3-1005.md) — This statute defines felony cruelty to animals as specific acts of cruelty causing an animal's death or required euthanasia, punishable by u
+- [§ 6-3-1006](/nodes/wyoming-criminal-section-6-3-1006.md) — Authorizes Wyoming courts to order forfeiture of animal ownership from convicted abusers as an additional remedy to criminal penalties.
+- [§ 6-3-1007](/nodes/wyoming-criminal-section-6-3-1007.md) — Wyoming § 6-3-1007 treats each affected animal as a separate count for all prosecutorial and punitive purposes in animal abuse cases.
+- [§ 6-3-1008](/nodes/wyoming-criminal-section-6-3-1008.md) — This Wyoming statute explicitly excludes humane animal destruction and use of dogs/raptors in hunting from animal abuse prohibitions in Arti
+- [§ 6-3-1009](/nodes/wyoming-criminal-section-6-3-1009.md) — Continues the household pet protection account to continuously fund attorney general reimbursement of up to 90% of county law enforcement ex
+- [§ 6-3-101](/nodes/wyoming-criminal-section-6-3-101.md) — Defines first-degree arson as maliciously starting a fire or explosion to damage an occupied structure (up to 20 years) and aggravated arson
+- [§ 6-3-1010](/nodes/wyoming-criminal-section-6-3-1010.md) — Establishes procedures for impounding animals subjected to cruelty, requiring bond postings and court hearings to determine disposition or f
+- [§ 6-3-102](/nodes/wyoming-criminal-section-6-3-102.md) — Defines second-degree arson as intentionally starting a fire or causing an explosion to damage property for insurance collection, punishable
+- [§ 6-3-103](/nodes/wyoming-criminal-section-6-3-103.md) — This statute defines third-degree arson as intentionally starting a fire or causing an explosion with intentional, reckless, or criminally n
+- [§ 6-3-104](/nodes/wyoming-criminal-section-6-3-104.md) — This statute defines fourth-degree arson as a misdemeanor for intentionally starting a fire or explosion that intentionally, recklessly, or 
+- [§ 6-3-105](/nodes/wyoming-criminal-section-6-3-105.md) — This Wyoming statute criminalizes the negligent setting of fires on another person's grounds without permission as a misdemeanor.
+- [§ 6-3-106](/nodes/wyoming-criminal-section-6-3-106.md) — Criminalizes leaving an unattended outdoor fire unextinguished or uncontained outside normal agricultural or forestry practices, punishable 
+- [§ 6-3-107](/nodes/wyoming-criminal-section-6-3-107.md) — Criminalizes throwing burning substances from vehicles as a misdemeanor to prevent fire risks.
+- [§ 6-3-108](/nodes/wyoming-criminal-section-6-3-108.md) — This statute defines 'authorized agency' for Wyoming's arson statutes §§ 6-3-108 through 6-3-110 as agencies or officials authorized to inve
+- [§ 6-3-109](/nodes/wyoming-criminal-section-6-3-109.md) — Requires Wyoming insurance companies to disclose fire loss information to authorized agencies and provides immunity for such disclosures to 
+- [§ 6-3-110](/nodes/wyoming-criminal-section-6-3-110.md) — Requires authorized agencies and insurance companies to maintain confidentiality of information received under Wyoming's arson-related statu
+- [§ 6-3-111](/nodes/wyoming-criminal-section-6-3-111.md) — Criminalizes possession, manufacture, transport, sale, or delivery of explosives, IEDs, or incendiary devices with unlawful intent to harm p
+- [§ 6-3-112](/nodes/wyoming-criminal-section-6-3-112.md) — Criminalizes willful interference with fire suppression equipment or facilities and willful interference with firefighters performing offici
+- [§ 6-3-201](/nodes/wyoming-criminal-section-6-3-201.md) — Criminalizes knowing destruction, defacement, or injury to another's property without consent, graded by damage value under $1,000 (misdemea
+- [§ 6-3-202](/nodes/wyoming-criminal-section-6-3-202.md) — Criminalizes the intentional and knowing displacement of land survey monuments or landmarks used to designate property boundaries.
+- [§ 6-3-204](/nodes/wyoming-criminal-section-6-3-204.md) — Wyoming statute criminalizes littering on another's property or from vehicles on public roads as a misdemeanor with enhanced penalties for b
+- [§ 6-3-301](/nodes/wyoming-criminal-section-6-3-301.md) — Defines burglary as unauthorized entry/remaining in structures/vehicles with intent to commit theft/felony (≤10 years) and aggravated burgla
+- [§ 6-3-302](/nodes/wyoming-criminal-section-6-3-302.md) — § 6-3-302 criminalizes knowing unauthorized entry into buildings, vehicles, or secured structures as a misdemeanor, with affirmative defense
+- [§ 6-3-303](/nodes/wyoming-criminal-section-6-3-303.md) — Wyoming § 6-3-303 criminalizes as a misdemeanor knowingly entering or remaining on another's land without authorization or after notice to d
+- [§ 6-3-304](/nodes/wyoming-criminal-section-6-3-304.md) — Criminalizes possession of tools or explosives adapted for forcible entry into buildings with intent to use them in such crimes as a felony.
+- [§ 6-3-305](/nodes/wyoming-criminal-section-6-3-305.md) — Criminalizes breaking, opening, or entering coin machines with intent to steal as a misdemeanor punishable by up to one year imprisonment an
+- [§ 6-3-306](/nodes/wyoming-criminal-section-6-3-306.md) — Criminalizes violently taking or keeping possession of land without legal authority as a misdemeanor punishable by a fine up to $750.
+- [§ 6-3-307](/nodes/wyoming-criminal-section-6-3-307.md) — This Wyoming statute criminalizes unauthorized entry or remaining in an occupied structure with the intent or act of committing battery or d
+- [§ 6-3-401](/nodes/wyoming-criminal-section-6-3-401.md) — Defines 'services' to include essential utilities for application in Wyoming's larceny and related property offenses.
+- [§ 6-3-402](/nodes/wyoming-criminal-section-6-3-402.md) — Wyoming's general theft statute criminalizes knowing unauthorized taking or control of another's property with intent to deprive, graded by 
+- [§ 6-3-405](/nodes/wyoming-criminal-section-6-3-405.md) — Wyoming statute authorizes reasonable detention of suspected shoplifters by merchants/peace officers and provides defense against related ci
+- [§ 6-3-411](/nodes/wyoming-criminal-section-6-3-411.md) — Criminalizes the manufacture, sale, possession with intent to steal, and unauthorized removal of devices designed to defeat retail theft det
+- [§ 6-3-414](/nodes/wyoming-criminal-section-6-3-414.md) — Wyoming statute criminalizes trespassing on private land to collect resource data without authorization and excludes such illegally collecte
+- [§ 6-3-501](/nodes/wyoming-criminal-section-6-3-501.md) — This statute defines essential terms such as 'access,' 'computer software,' and 'property' for Wyoming's Computer Crimes article.
+- [§ 6-3-502](/nodes/wyoming-criminal-section-6-3-502.md) — Criminalizes knowingly unauthorized modification of computer data, programs, or documentation as a felony, with enhanced penalties for fraud
+- [§ 6-3-503](/nodes/wyoming-criminal-section-6-3-503.md) — Criminalizes unauthorized knowing modification of computer equipment/supplies (misdemeanor/felony) and destruction/damage to computers causi
+- [§ 6-3-504](/nodes/wyoming-criminal-section-6-3-504.md) — Criminalizes knowing unauthorized access to computers, systems, or networks with felony penalties enhanced for fraudulent intent.
+- [§ 6-3-505](/nodes/wyoming-criminal-section-6-3-505.md) — This statute provides that Wyoming's Computer Crimes Article does not preclude application of other criminal laws to its violations unless i
+- [§ 6-3-506](/nodes/wyoming-criminal-section-6-3-506.md) — Wyoming statute criminalizes unauthorized electronic transmission of malware or harmful data into computers/networks with intent to cause da
+- [§ 6-3-507](/nodes/wyoming-criminal-section-6-3-507.md) — This Wyoming statute criminalizes the knowing unauthorized introduction of ransomware into computer systems that demands payment for removal
+- [§ 6-3-601](/nodes/wyoming-criminal-section-6-3-601.md) — Defines 'writing' for Wyoming's fraud article to include any method of recording information and various symbols of value such as credit car
+- [§ 6-3-602](/nodes/wyoming-criminal-section-6-3-602.md) — This statute criminalizes forgery by prohibiting the intentional, unauthorized alteration of another's writing with intent to defraud, punis
+- [§ 6-3-603](/nodes/wyoming-criminal-section-6-3-603.md) — This Wyoming statute criminalizes as a felony the possession of forged writings known to be forged with intent to pass them to defraud other
+- [§ 6-3-604](/nodes/wyoming-criminal-section-6-3-604.md) — Criminalizes fraudulent interference with wills, codicils, testamentary instruments, or government records as a felony punishable by up to 1
+- [§ 6-3-605](/nodes/wyoming-criminal-section-6-3-605.md) — Criminalizes unauthorized operation of coin machines using slugs and the manufacture/distribution of slugs for fraudulent purposes as misdem
+- [§ 6-3-606](/nodes/wyoming-criminal-section-6-3-606.md) — Criminalizes falsely impersonating a peace officer with intent to compel another person to act or refrain from acting against their will, pu
+- [§ 6-3-607](/nodes/wyoming-criminal-section-6-3-607.md) — Criminalizes debtors' intentional transfer or concealment of secured property to defraud mortgagees or secured parties, graded by value with
+- [§ 6-3-608](/nodes/wyoming-criminal-section-6-3-608.md) — Criminalizes contractors fraudulently diverting purchased materials to unauthorized projects (misdemeanor) and falsely certifying subcontrac
+- [§ 6-3-609](/nodes/wyoming-criminal-section-6-3-609.md) — Wyoming § 6-3-609 criminalizes as a felony the bribery of athletic contest participants or officials with intent to induce poor or limited p
+- [§ 6-3-610](/nodes/wyoming-criminal-section-6-3-610.md) — Prohibits knowingly mislabeling commodities with intent to promote their sale or purchase, punishable as a misdemeanor by a fine up to $750.
+- [§ 6-3-611](/nodes/wyoming-criminal-section-6-3-611.md) — Prohibits knowingly disseminating false, misleading, or deceptive advertisements to the public with intent to induce property transactions o
+- [§ 6-3-612](/nodes/wyoming-criminal-section-6-3-612.md) — Criminalizes knowingly making or using false written financial or ownership statements to obtain property, credit, or loans, with felony pen
+- [§ 6-3-613](/nodes/wyoming-criminal-section-6-3-613.md) — Criminalizes knowingly making or publishing false or misleading statements about a person's financial condition or property value with inten
+- [§ 6-3-614](/nodes/wyoming-criminal-section-6-3-614.md) — Criminalizes manufacturing, selling, distributing, or transporting synthetic urine or adulterants intended to defraud drug and alcohol scree
+- [§ 6-3-615](/nodes/wyoming-criminal-section-6-3-615.md) — Criminalizes intentional use of false documents to conceal identity, citizenship, or resident alien status when accessing public resources o
+- [§ 6-3-701](/nodes/wyoming-criminal-section-6-3-701.md) — § 6-3-701 defines 'check' and 'insufficient funds' for Wyoming's check fraud article.
+- [§ 6-3-702](/nodes/wyoming-criminal-section-6-3-702.md) — Criminalizes knowingly issuing bad checks due to insufficient funds, graded as misdemeanor for amounts under $1,000 and felony for $1,000 or
+- [§ 6-3-703](/nodes/wyoming-criminal-section-6-3-703.md) — Wyoming statute § 6-3-703 creates prima facie evidence of intent to defraud with bad checks when issued without an account and deems account
+- [§ 6-3-704](/nodes/wyoming-criminal-section-6-3-704.md) — Authorizes any rights-holder of a dishonored insufficient funds check to file complaints and mandates restitution up to double the check amo
+- [§ 6-3-705](/nodes/wyoming-criminal-section-6-3-705.md) — Grants drawees civil and criminal immunity for disclosing check drawer account information to payees/holders and law enforcement while impos
+- [§ 6-3-706](/nodes/wyoming-criminal-section-6-3-706.md) — Grants banks immunity from civil and criminal liability for disclosing check drawer's account information to specified law enforcement after
+- [§ 6-3-801](/nodes/wyoming-criminal-section-6-3-801.md) — Defines 'credit card' and 'charge card' for Wyoming's credit card fraud statutes.
+- [§ 6-3-802](/nodes/wyoming-criminal-section-6-3-802.md) — Criminalizes fraudulent use of another person's credit, charge, or debit card, graded as misdemeanor or felony based on aggregate value obta
+- [§ 6-3-803](/nodes/wyoming-criminal-section-6-3-803.md) — Criminalizes unauthorized use of scanning devices to capture electronic payment card information with intent to defraud, punishable as a fel
+- [§ 6-3-901](/nodes/wyoming-criminal-section-6-3-901.md) — This Wyoming statute criminalizes the willful unauthorized use of another person's personal identifying information for unlawful purposes, g
+- [§ 6-3-902](/nodes/wyoming-criminal-section-6-3-902.md) — Criminalizes knowing and intentional impersonation of another person's or organization's digital identity through electronic means without c
+- [§ 6-4-101](/nodes/wyoming-criminal-section-6-4-101.md) — This Wyoming statute criminalizes prostitution as a misdemeanor, punishable by up to six months imprisonment and/or a $750 fine, for knowing
+- [§ 6-4-102](/nodes/wyoming-criminal-section-6-4-102.md) — This Wyoming statute criminalizes soliciting prostitution by intentionally offering payment for sexual intrusion under corroborative circums
+- [§ 6-4-103](/nodes/wyoming-criminal-section-6-4-103.md) — This Wyoming statute criminalizes knowingly or intentionally enticing or compelling another person to become a prostitute as a felony, with 
+- [§ 6-4-201](/nodes/wyoming-criminal-section-6-4-201.md) — Prohibits performing acts of sexual intrusion in public places where one may reasonably be viewed by others, punishable as a misdemeanor, wi
+- [§ 6-4-301](/nodes/wyoming-criminal-section-6-4-301.md) — § 6-4-301 defines key terms 'disseminate' and 'sexual conduct' for Wyoming's obscenity article.
+- [§ 6-4-302](/nodes/wyoming-criminal-section-6-4-302.md) — Criminalizes producing or reproducing obscene material with intent to disseminate it, with misdemeanor penalties increased when disseminated
+- [§ 6-4-303](/nodes/wyoming-criminal-section-6-4-303.md) — Wyoming statute criminalizes the knowing production and possession of child pornography as felonies with imprisonment, fines, and forfeiture
+- [§ 6-4-304](/nodes/wyoming-criminal-section-6-4-304.md) — Criminalizes non-consensual clandestine viewing into private areas as misdemeanor, escalating to felony for recording, minor victims, or rep
+- [§ 6-4-305](/nodes/wyoming-criminal-section-6-4-305.md) — Criminalizes minors disseminating nude images of themselves or other minors (age 11+) with escalating penalties based on harm intended, trea
+- [§ 6-4-306](/nodes/wyoming-criminal-section-6-4-306.md) — Criminalizes the dissemination of intimate images of another person by adults as a misdemeanor, with exemptions for internet service provide
+- [§ 6-4-401](/nodes/wyoming-criminal-section-6-4-401.md) — Wyoming § 6-4-401 criminalizes bigamy as a felony when a married person knowingly remarries, punishable by up to 5 years imprisonment and/or
+- [§ 6-4-402](/nodes/wyoming-criminal-section-6-4-402.md) — Wyoming statute criminalizes incest as knowing sexual intrusion or contact with close relatives and mandates court protection of minor victi
+- [§ 6-4-403](/nodes/wyoming-criminal-section-6-4-403.md) — Criminalizes child abandonment by parents/guardians, knowing endangerment acts by any person, and unauthorized disclosure of minor victim id
+- [§ 6-4-404](/nodes/wyoming-criminal-section-6-4-404.md) — Criminalizes willful violation of domestic violence protection orders as a misdemeanor punishable by up to six months imprisonment and/or a 
+- [§ 6-4-405](/nodes/wyoming-criminal-section-6-4-405.md) — Wyoming statute criminalizes knowingly and willfully endangering children through exposure to methamphetamine or fentanyl via ingestion or p
+- [§ 6-4-406](/nodes/wyoming-criminal-section-6-4-406.md) — Criminalizes knowingly allowing house parties on controlled premises where minors possess or consume alcohol or illegal drugs, with misdemea
+- [§ 6-4-501](/nodes/wyoming-criminal-section-6-4-501.md) — Criminalizes opening graves or tombs to remove deceased bodies or remains without near relations' knowledge and consent, punishable by a $75
+- [§ 6-4-502](/nodes/wyoming-criminal-section-6-4-502.md) — Criminalizes mutilation of dead human bodies as a felony with enhanced penalties when done to conceal a felony, subject to medical, autopsy,
+- [§ 6-4-601](/nodes/wyoming-criminal-section-6-4-601.md) — Wyoming § 6-4-601 criminalizes knowingly engaging in sexual acts with animals as a misdemeanor, excluding accepted veterinary and husbandry 
+- [§ 6-5-101](/nodes/wyoming-criminal-section-6-5-101.md) — Defines 'government' and 'public officer' for Wyoming's public administration offenses statutes.
+- [§ 6-5-102](/nodes/wyoming-criminal-section-6-5-102.md) — This Wyoming statute criminalizes bribery of public servants by prohibiting the offer, conferral, or agreement to confer benefits in exchang
+- [§ 6-5-103](/nodes/wyoming-criminal-section-6-5-103.md) — Criminalizes public servants accepting pecuniary benefits as compensation for favorable past official decisions, votes, discretion, or duty 
+- [§ 6-5-104](/nodes/wyoming-criminal-section-6-5-104.md) — This Wyoming statute criminalizes public servants soliciting, accepting, or agreeing to accept unauthorized pecuniary benefits for official 
+- [§ 6-5-105](/nodes/wyoming-criminal-section-6-5-105.md) — Prohibits public servants from requiring bidders or contractors to use specific providers for goods or services in government contracts, wit
+- [§ 6-5-106](/nodes/wyoming-criminal-section-6-5-106.md) — Criminalizes public servants receiving unauthorized pecuniary benefits from government contracts or appointments, with disclosure/non-partic
+- [§ 6-5-107](/nodes/wyoming-criminal-section-6-5-107.md) — Wyoming § 6-5-107 criminalizes as misdemeanors a public servant's knowing unauthorized official acts done for personal gain or to maliciousl
+- [§ 6-5-108](/nodes/wyoming-criminal-section-6-5-108.md) — Criminalizes public servants issuing official certificates or instruments containing known false statements, with felony penalties when done
+- [§ 6-5-110](/nodes/wyoming-criminal-section-6-5-110.md) — Criminalizes public servants' intentional conversion of government property for non-public use, punishable as a misdemeanor, with exceptions
+- [§ 6-5-111](/nodes/wyoming-criminal-section-6-5-111.md) — This Wyoming statute makes it a felony for public servants to fail or refuse to account for, deliver, or pay over property received in their
+- [§ 6-5-112](/nodes/wyoming-criminal-section-6-5-112.md) — Criminalizes employees or caregivers in reformatories, penal/charitable institutions, or mental hospitals treating persons with unnecessary 
+- [§ 6-5-113](/nodes/wyoming-criminal-section-6-5-113.md) — Mandates removal from office or employment for public servants convicted of specified offenses under W.S. 6-5-102 through 6-5-112 and 6-5-11
+- [§ 6-5-114](/nodes/wyoming-criminal-section-6-5-114.md) — Criminalizes notarial officers issuing acknowledgment certificates without proper personal acknowledgment by the executing party for recorda
+- [§ 6-5-115](/nodes/wyoming-criminal-section-6-5-115.md) — Criminalizes ministerial officers' refusal or neglect to perform legally required duties in criminal cases as a misdemeanor.
+- [§ 6-5-116](/nodes/wyoming-criminal-section-6-5-116.md) — Prohibits elected or appointed public officers and their deputies from performing official duties without taking the required oath or filing
+- [§ 6-5-117](/nodes/wyoming-criminal-section-6-5-117.md) — Criminalizes Wyoming public officers demanding salary kickbacks or compensation from appointed deputies in exchange for continued employment
+- [§ 6-5-118](/nodes/wyoming-criminal-section-6-5-118.md) — Requires Wyoming public servants with public fund investment authority to disclose personal financial interests in non-governmental investme
+- [§ 6-5-201](/nodes/wyoming-criminal-section-6-5-201.md) — Defines 'emergency' for Wyoming's Article 2 on Hindering Government Operations as a crime or public safety-jeopardizing situation potentiall
+- [§ 6-5-202](/nodes/wyoming-criminal-section-6-5-202.md) — Defines accessory after the fact as intentionally assisting a criminal to avoid justice, with penalties graded by felony/misdemeanor status 
+- [§ 6-5-203](/nodes/wyoming-criminal-section-6-5-203.md) — Prohibits accepting property to conceal crimes or interfere with their prosecution, with penalties scaled to the seriousness of the underlyi
+- [§ 6-5-204](/nodes/wyoming-criminal-section-6-5-204.md) — Criminalizes interference with, injury to, and disarming of peace officers performing lawful duties, with misdemeanor and felony penalties.
+- [§ 6-5-205](/nodes/wyoming-criminal-section-6-5-205.md) — This Wyoming statute makes it a misdemeanor to drive through a manned roadblock without stopping and obeying the supervising uniformed peace
+- [§ 6-5-206](/nodes/wyoming-criminal-section-6-5-206.md) — This statute criminalizes escape from official detention as a felony with penalties scaled by the underlying conviction (10 years maximum fo
+- [§ 6-5-207](/nodes/wyoming-criminal-section-6-5-207.md) — This Wyoming statute makes it a felony punishable by up to 10 years imprisonment to escape official detention using violence, while armed wi
+- [§ 6-5-208](/nodes/wyoming-criminal-section-6-5-208.md) — Prohibits unauthorized introduction of controlled substances or liquor into Wyoming jails, penal institutions, reform schools, private corre
+- [§ 6-5-209](/nodes/wyoming-criminal-section-6-5-209.md) — Criminalizes unauthorized possession of deadly weapons in Wyoming jails, penal institutions, specific schools, private correctional faciliti
+- [§ 6-5-210](/nodes/wyoming-criminal-section-6-5-210.md) — Criminalizes knowingly making false reports of crimes or emergencies to 911 systems, law enforcement, or fire departments, with escalating p
+- [§ 6-5-211](/nodes/wyoming-criminal-section-6-5-211.md) — This Wyoming statute makes it a felony to knowingly and willfully injure or kill without justification a police dog, fire dog, search and re
+- [§ 6-5-212](/nodes/wyoming-criminal-section-6-5-212.md) — Criminalizes knowingly interfering with others' legitimate emergency calls to 911/law enforcement and making non-emergency 911 calls.
+- [§ 6-5-213](/nodes/wyoming-criminal-section-6-5-213.md) — Prohibits intentionally conveying or attempting to convey contraband to confined persons in Wyoming penal institutions or correctional facil
+- [§ 6-5-214](/nodes/wyoming-criminal-section-6-5-214.md) — Prohibits unauthorized intentional UAS trespass over penal institutions to surveil, record, or deliver contraband, with misdemeanor and felo
+- [§ 6-5-301](/nodes/wyoming-criminal-section-6-5-301.md) — Wyoming § 6-5-301 defines perjury as knowingly making a false statement under oath in judicial, legislative, or administrative proceedings c
+- [§ 6-5-302](/nodes/wyoming-criminal-section-6-5-302.md) — Wyoming § 6-5-302 prohibits convicting a defendant of soliciting perjury based solely on the uncorroborated testimony of the solicited perso
+- [§ 6-5-303](/nodes/wyoming-criminal-section-6-5-303.md) — This Wyoming statute criminalizes as felonies the knowing making of false sworn statements in nonjudicial/nonadministrative proceedings, sub
+- [§ 6-5-304](/nodes/wyoming-criminal-section-6-5-304.md) — Criminalizes knowingly offering unproperly located mining claim certificates or assessment affidavits for county clerk filing as a felony.
+- [§ 6-5-305](/nodes/wyoming-criminal-section-6-5-305.md) — Wyoming statute criminalizing the use of force or threats to intimidate or impede judicial participants or obstruct court proceedings, with 
+- [§ 6-5-306](/nodes/wyoming-criminal-section-6-5-306.md) — Criminalizes as a misdemeanor the refusal or intentional failure to obey a lawfully served subpoena or citation, with penalties up to 6 mont
+- [§ 6-5-307](/nodes/wyoming-criminal-section-6-5-307.md) — This statute criminalizes falsely pretending to be a public servant with intent to induce submission to or reliance on that pretense to anot
+- [§ 6-5-308](/nodes/wyoming-criminal-section-6-5-308.md) — Criminalizes willful or knowing filing of materially false or misleading documents with Wyoming's Secretary of State as a felony.
+- [§ 6-5-401](/nodes/wyoming-criminal-section-6-5-401.md) — § 6-5-401 defines key terms including governmental entity, public contract, subcontractor, and subcontractor employee for Wyoming's public c
+- [§ 6-5-402](/nodes/wyoming-criminal-section-6-5-402.md) — Criminalizes knowing conspiracies among competitors to rig bids to governmental entities by exchanging non-public bid information with inten
+- [§ 6-5-403](/nodes/wyoming-criminal-section-6-5-403.md) — Criminalizes collusive bid rotating schemes targeting Wyoming governmental contracts as a felony.
+- [§ 6-5-404](/nodes/wyoming-criminal-section-6-5-404.md) — Criminalizes public servants knowingly mishandling or disclosing sealed bid information in public contracting.
+- [§ 6-5-405](/nodes/wyoming-criminal-section-6-5-405.md) — Criminalizes public servant interference with fair public contract bidding and award processes through unauthorized information disclosure, 
+- [§ 6-5-406](/nodes/wyoming-criminal-section-6-5-406.md) — Prohibits knowingly providing, attempting, or offering kickbacks in public contracting as a misdemeanor with civil recovery options for gove
+- [§ 6-5-407](/nodes/wyoming-criminal-section-6-5-407.md) — This statute criminalizes offering bribes to inspectors to secure wrongful approval of work performed under public contracts, punishable as 
+- [§ 6-5-408](/nodes/wyoming-criminal-section-6-5-408.md) — Imposes a three-year governmental contracting ban on persons convicted of public contracting interference offenses, with exceptions protecti
+- [§ 6-6-101](/nodes/wyoming-criminal-section-6-6-101.md) — Prohibits fighting with one or more persons in public by agreement as a misdemeanor punishable by up to 6 months imprisonment, $750 fine, or
+- [§ 6-6-102](/nodes/wyoming-criminal-section-6-6-102.md) — This Wyoming statute criminalizes as a misdemeanor disturbing community peace through unreasonably loud noise, threatening/abusive/obscene l
+- [§ 6-6-103](/nodes/wyoming-criminal-section-6-6-103.md) — Criminalizes anonymous obscene telephone calls intended to harass and repeated anonymous calls disturbing peace or privacy.
+- [§ 6-6-104](/nodes/wyoming-criminal-section-6-6-104.md) — Prohibits use of automated telephone dialing systems to deliver recorded messages offering goods/services for sale or promoting political ca
+- [§ 6-6-105](/nodes/wyoming-criminal-section-6-6-105.md) — Prohibits protesting, picketing, or breaching the peace within 900 feet of a funeral or memorial service within one hour before, during, or 
+- [§ 6-6-201](/nodes/wyoming-criminal-section-6-6-201.md) — Defines maintaining property for prostitution, gambling, lewdness, or illegal liquor/controlled substances as a public nuisance subject to c
+- [§ 6-6-202](/nodes/wyoming-criminal-section-6-6-202.md) — Authorizes county attorneys or citizens to seek injunctions without bond to abate public nuisances, with violations punishable as contempt.
+- [§ 6-6-203](/nodes/wyoming-criminal-section-6-6-203.md) — Establishes procedural safeguards for public nuisance abatement actions including trial timing, evidence rules, dismissal restrictions, pros
+- [§ 6-6-204](/nodes/wyoming-criminal-section-6-6-204.md) — Establishes procedures for nuisance abatement orders including property removal, sale, building closure, and criminalizes breaking and enter
+- [§ 6-6-205](/nodes/wyoming-criminal-section-6-6-205.md) — Specifies that proceeds from nuisance abatement property sales pay action costs first, with any balance returned to the defendant.
+- [§ 6-6-206](/nodes/wyoming-criminal-section-6-6-206.md) — This statute authorizes courts to cancel nuisance abatement orders and release property upon the owner's payment of costs, posting of a suff
+- [§ 6-6-207](/nodes/wyoming-criminal-section-6-6-207.md) — Assesses a $300 tax with perpetual lien against property and persons subject to permanent injunctions for maintaining public nuisances under
+- [§ 6-6-208](/nodes/wyoming-criminal-section-6-6-208.md) — Establishes summary criminal contempt proceedings for violations of nuisance injunctions with fines up to $1,000 and/or six months jail.
+- [§ 6-6-209](/nodes/wyoming-criminal-section-6-6-209.md) — Wyoming statute defines structures/boats/vehicles used for prostitution, gambling, or illegal drugs/liquor as public nuisances and penalizes
+- [§ 6-6-301](/nodes/wyoming-criminal-section-6-6-301.md) — Defines 'governing body' as any elected or appointed governmental commission, board, agency, council, trustees, or similar body authorized b
+- [§ 6-6-302](/nodes/wyoming-criminal-section-6-6-302.md) — Criminalizes obstructive or disruptive conduct by force, violence, or other means within government-owned or controlled facilities, includin
+- [§ 6-6-303](/nodes/wyoming-criminal-section-6-6-303.md) — Prohibits refusing to stop prohibited conduct or leave governmental facilities after notification by authorized personnel that one's actions
+- [§ 6-6-304](/nodes/wyoming-criminal-section-6-6-304.md) — This statute explicitly preserves freedoms of speech, press, and peaceable assembly despite criminal restrictions on conduct within governme
+- [§ 6-6-305](/nodes/wyoming-criminal-section-6-6-305.md) — This statute establishes misdemeanor penalties for violations of Wyoming Statutes §§ 6-6-301 through 6-6-307 concerning unlawful conduct in 
+- [§ 6-6-306](/nodes/wyoming-criminal-section-6-6-306.md) — This statute empowers Wyoming governmental facility governing bodies to require identification and eject persons who refuse to leave when th
+- [§ 6-6-307](/nodes/wyoming-criminal-section-6-6-307.md) — Preserves the full legal powers of governing bodies to pursue their objectives and discipline violators despite the existence of criminal st
+- [§ 6-7-101](/nodes/wyoming-criminal-section-6-7-101.md) — Defines terms and exceptions for gambling activities under Wyoming's criminal code, distinguishing lawful charitable gaming and displays fro
+- [§ 6-7-102](/nodes/wyoming-criminal-section-6-7-102.md) — Prohibits gambling as a misdemeanor and professional gambling as a felony in Wyoming.
+- [§ 6-7-103](/nodes/wyoming-criminal-section-6-7-103.md) — Wyoming statute § 6-7-103 authorizes peace officers to seize gambling devices, records, and proceeds for legal disposition, exempting antiqu
+- [§ 6-7-104](/nodes/wyoming-criminal-section-6-7-104.md) — Authorizes advertising of gambling activities excluded under W.S. 6-7-101(a)(iii) when conducted by charitable/nonprofit organizations or as
+- [§ 6-8-101](/nodes/wyoming-criminal-section-6-8-101.md) — Enhances felony sentences by up to 10 years (20 for repeats) when a firearm is used during commission, excluding felonies that already requi
+- [§ 6-8-102](/nodes/wyoming-criminal-section-6-8-102.md) — Wyoming statute prohibiting firearm use or possession by persons convicted of violent felonies (felony offense) or non-violent felonies (mis
+- [§ 6-8-103](/nodes/wyoming-criminal-section-6-8-103.md) — This Wyoming statute criminalizes the knowing possession, manufacture, transport, repair, or sale of deadly weapons when done with specific 
+- [§ 6-8-104](/nodes/wyoming-criminal-section-6-8-104.md) — Criminalizes carrying concealed deadly weapons unless the person is a peace officer or holds a valid concealed firearm permit issued after b
+- [§ 6-8-203](/nodes/wyoming-criminal-section-6-8-203.md) — Mandates Wyoming firearms dealers to maintain federal-required records at their business premises for peace officer inspection at reasonable
+- [§ 6-8-401](/nodes/wyoming-criminal-section-6-8-401.md) — Wyoming § 6-8-401 preempts local regulation of firearms, weapons, and ammunition, affirming the right to keep and bear arms as constitutiona
+- [§ 6-8-402](/nodes/wyoming-criminal-section-6-8-402.md) — This statute names the act as the Wyoming Firearms Freedom Act and limits its application to firearms, accessories, and ammunition manufactu
+- [§ 6-8-403](/nodes/wyoming-criminal-section-6-8-403.md) — § 6-8-403 defines essential terms including 'ammunition', 'firearm', 'generic and insignificant parts', and 'antique firearm' for Wyoming's 
+- [§ 6-8-404](/nodes/wyoming-criminal-section-6-8-404.md) — Wyoming statute exempts intrastate-manufactured firearms, accessories, and ammunition from federal regulation while requiring marking and pr
+- [§ 6-8-405](/nodes/wyoming-criminal-section-6-8-405.md) — Criminalizes federal enforcement of firearm laws against Wyoming-made guns remaining exclusively within state borders and authorizes AG defe
+- [§ 6-8-406](/nodes/wyoming-criminal-section-6-8-406.md) — § 6-8-406 declares the legislature's constitutional authority for Wyoming's weapons regulation statutes W.S. 6-8-402 through 6-8-406 based o
+- [§ 6-9-101](/nodes/wyoming-criminal-section-6-9-101.md) — Prohibits intentional discrimination in public accommodations based on race, religion, color, sex, or national origin, punishable as a misde
+- [§ 6-9-102](/nodes/wyoming-criminal-section-6-9-102.md) — Prohibits denying any person fundamental rights to life, liberty, pursuit of happiness, or necessities of life based on race, color, sex, cr
+- [§ 6-9-103](/nodes/wyoming-criminal-section-6-9-103.md) — Prohibits charging for use of toilet facilities generally available to the public, punishable by a fine of up to $100.
+- [§ 6-9-201](/nodes/wyoming-criminal-section-6-9-201.md) — Prohibits skiing on slopes or trails posted as 'closed' within ski areas, punishable by a maximum $100 fine, with exceptions for authorized 
+- [§ 6-9-202](/nodes/wyoming-criminal-section-6-9-202.md) — This Wyoming statute makes it a misdemeanor punishable by up to a $750 fine for a person who opens but fails to close a gate or replace fenc
+- [§ 6-9-203](/nodes/wyoming-criminal-section-6-9-203.md) — Criminalizes huffing, ingesting, or possessing intent to huff/ingest toxic solvents not made for human consumption to alter mental/physical 
+- [§ 6-9-301](/nodes/wyoming-criminal-section-6-9-301.md) — Wyoming statute criminalizes impaired skiing, reckless skiing, and leaving collision scenes at ski areas as misdemeanors to ensure public sa
