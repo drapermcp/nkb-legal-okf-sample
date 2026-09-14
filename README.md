@@ -10,21 +10,22 @@ license: "CC-BY-4.0"
 
 A public sample of a **Neural Knowledge Base (NKB)** exported as an **Open Knowledge Format v0.2** bundle.
 
-An NKB is an OKF-conformant document bundle **plus** layers OKF does not model. This repo shows three of them in plain files any OKF consumer can read:
+An NKB is an OKF-conformant document bundle **plus** walls OKF does not model. The first wall is a **typed relationship layer** (OKF has no edge files). This sample ships that layer two ways, in plain files:
 
 | layer | where to look |
 |---|---|
-| Provenance (pre-OKF Canon Integrity Header + OKF `sources` / `generated` / `status`) | frontmatter of any node in `nodes/` |
-| Six-dimension analytical enrichment (**6Q**: what / who / when / where / how / why) | `6q_*` keys in frontmatter |
-| Typed relationship graph (696 edges over 264 nodes) | the **Related** section of each node: markdown links whose title carries `rel:<type> {strength}` (the typed-link convention proposed in [knowledge-catalog #322](https://github.com/GoogleCloudPlatform/knowledge-catalog/issues/322)) |
+| Typed inline links (proposed in [knowledge-catalog #322](https://github.com/GoogleCloudPlatform/knowledge-catalog/issues/322)) | each node’s **Related** section: `rel:<type> {strength}` in the link title |
+| Local neighbor files | `neighbors/<node-id>.json` — one small file per node; do not grep a domain-wide dump |
+| Provenance | Canon Integrity Header + OKF `sources` / `generated` / `status` on each node |
+| 6Q (authoring, not the retrieval pitch) | `6q_*` keys in frontmatter — used to *write* thematic edges; not claimed as lookup |
 
-Start at [`index.md`](index.md). History in [`log.md`](log.md). Rights in [`NOTICE.md`](NOTICE.md).
+How to ship the graph: [`PATTERN.md`](PATTERN.md). Start at [`index.md`](index.md). Rights in [`NOTICE.md`](NOTICE.md).
 
 ## Provenance of the sample
 
 - Source corpus: NKB Legal — United States Criminal Code Compilation, Version 1.0 (34,364 nodes, 45 states). Registered work, U.S. Copyright Office **Reg. No. TXu 2-562-276**, effective 2026-02-23. Statutory text is public domain and is not claimed.
 - Format: OKF v0.2 (`GoogleCloudPlatform/knowledge-catalog`, `okf/SPEC.md`). Every document here parses as YAML frontmatter with `type`; unknown keys are the point — consumers must preserve them.
-- Method and measurement: *Neural Knowledge Bases as OKF Supersets* (CC-BY technical note), DOI [10.5281/zenodo.21861595](https://doi.org/10.5281/zenodo.21861595). Retrieval measurement (nodes + agency vs RAG): DOI [10.5281/zenodo.21613674](https://doi.org/10.5281/zenodo.21613674).
+- Method: *Neural Knowledge Bases as OKF Supersets*, DOI [10.5281/zenodo.21861595](https://doi.org/10.5281/zenodo.21861595). Nodes+search vs RAG: DOI [10.5281/zenodo.21613674](https://doi.org/10.5281/zenodo.21613674). Wyoming retrieval pilot (what a flat OKF reader loses; local-edge addendum): see `PATTERN.md` and the 2026-09-13 note (DOI to be written back on deposit).
 
 ## License
 
