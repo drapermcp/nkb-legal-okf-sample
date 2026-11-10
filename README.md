@@ -24,7 +24,7 @@ How to ship the graph: [`PATTERN.md`](PATTERN.md). Start at [`index.md`](index.m
 ## Provenance of the sample
 
 - Source corpus: NKB Legal — United States Criminal Code Compilation, Version 1.0 (34,364 nodes, 45 states). Registered work, U.S. Copyright Office **Reg. No. TXu 2-562-276**, effective 2026-02-23. Statutory text is public domain and is not claimed.
-- Format: OKF v0.2 (`GoogleCloudPlatform/knowledge-catalog`, `okf/SPEC.md`). Every document here parses as YAML frontmatter with `type`; unknown keys are the point — consumers must preserve them.
+- Format: OKF v0.2 (`GoogleCloudPlatform/open-knowledge-format`, `SPEC.md`). Every concept document here parses as YAML frontmatter with `type`; the reserved `index.md` and `log.md` follow spec sections 8 and 9; unknown keys are the point — consumers must preserve them.
 - Method: *Neural Knowledge Bases as OKF Supersets*, DOI [10.5281/zenodo.21861595](https://doi.org/10.5281/zenodo.21861595). Nodes+search vs RAG: DOI [10.5281/zenodo.21613674](https://doi.org/10.5281/zenodo.21613674). Wyoming retrieval pilot: [10.5281/zenodo.22739602](https://doi.org/10.5281/zenodo.22739602). How to ship the graph: [`PATTERN.md`](PATTERN.md).
 
 ## License

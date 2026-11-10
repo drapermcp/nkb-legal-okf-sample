@@ -1,9 +1,8 @@
----
-type: log
-title: "bundle log"
----
-
 # log
+
+## 2026-11-09
+
+**Update** Reserved files brought in line with spec sections 8 and 9: root `index.md` frontmatter now carries only `okf_version` (its description and generator moved into the body); `log.md` carries no frontmatter. Spec reference updated to `GoogleCloudPlatform/open-knowledge-format`.
 
 ## 2026-09-13
 
